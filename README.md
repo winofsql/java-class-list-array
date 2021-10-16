@@ -64,3 +64,20 @@ for (Person person : list2) {
 }
 ```
 
+## 配列を List に
+```java
+String[] array1 = new String[] {"A","B","C","D","E"};
+String[] array2 = {"F","G","H","I","J"};
+var array3 = new String[] { "K", "L", "M", "N", "O" };
+
+List<String[]> list5 = new ArrayList<String[]>();
+list5.add(array1);
+list5.add(array2);
+list5.add(array3);
+
+for (String[] strings : list5) {
+    for (String data : strings) {
+        print(14, data);
+    }
+}
+```
