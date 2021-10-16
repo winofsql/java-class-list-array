@@ -51,3 +51,4 @@ public class Person {
 
 }
 ```
+### Person yamada2 = new Person("山田", "太郎");
