@@ -26,7 +26,7 @@ public class Main {
 ### Main main = new Main();
 ### InnerMain yamada1 = main.new InnerMain("山田", "太郎");
 
-## 2 : 普通の Class
+## 2 : 普通の Class : Person.java
 ```java
 public class Person {
 
