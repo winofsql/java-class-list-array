@@ -51,7 +51,7 @@ public class Person {
 
 }
 ```
-## 3 : 普通の List<Person>
+## 3 : 普通の List\<Person\>
 ### Person yamada2 = new Person("山田", "太郎");
 ```java
 List<Person> list2 = new ArrayList<Person>();
