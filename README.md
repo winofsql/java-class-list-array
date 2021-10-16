@@ -52,3 +52,15 @@ public class Person {
 }
 ```
 ### Person yamada2 = new Person("山田", "太郎");
+```java
+List<Person> list2 = new ArrayList<Person>();
+list2.add(yamada2);
+list2.add(new Person("鈴木", "次郎"));
+list2.add(new Person("山中", "花子"));
+
+// 読み出し
+for (Person person : list2) {
+    print(5, person.getName());
+}
+```
+
